@@ -1,0 +1,23 @@
+{
+  "name": "graphql-api",
+  "version": "1.0.0",
+  "description": "App using GraphQL, Node.js, MongoDB to create APIs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node --presets es2015,stage-2"
+  },
+  "author": "Siddharth Kundu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "mongoose": "^5.3.12"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.18.6"
+  }
+}
